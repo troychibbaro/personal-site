@@ -75,7 +75,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/tc-social-card.jpg',
+      image: 'img/tc-social-card.png',
       navbar: {
         title: 'Troy Chibbaro',
         logo: {
