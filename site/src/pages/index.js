@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import IconWithText from '../components/HomepageFeatures/home_components';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -35,6 +36,11 @@ export default function Home() {
       title={`Welcome`}
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
+      <IconWithText 
+      icon={<img src={require('@site/static/img/a_logo_stacked.png').default} width={250} height={250}></img>} 
+      headerText="" 
+      bodyText="I am an experienced Android Developer."
+      />
     </Layout>
   );
 }
