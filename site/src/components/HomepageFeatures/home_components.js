@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const IconWithText = ({ icon, headerText, bodyText }) => {
   return (
-    <Card style={{ width: '18rem', margin: "16px", justifyContent: "center", alignItems: "center" }}>
+    <Card style={{ width: '18rem', margin: "16px", justifyContent: "center", alignItems: "center", backgroundColor: "var(--ifm-card-fill)", flex: "0 0 auto"}}>
       <div style={styles.iconContainer}>
         {icon}
       </div>

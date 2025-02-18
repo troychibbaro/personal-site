@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Troy Chibbaro',
-  tagline: 'My personal site',
+  tagline: 'An experienced software engineer with an enthusiasm for creating world-class technologies.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
